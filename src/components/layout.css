@@ -1,9 +1,31 @@
+.withBGC {
+  /* background-color: rgba(97, 84, 85, 0.2); */
+  background-image : linear-gradient(to bottom, 
+  rgba(97, 84, 85, 0,),
+  rgba(97, 84, 85, 0.2) 90%);
+  background-image : linear-gradient(to left, 
+  rgba(97, 84, 85, 0), 
+  rgba(97, 84, 85, 0.2) 90%);
+  background-image : linear-gradient(to top, 
+  rgba(97, 84, 85, 0), 
+  rgba(97, 84, 85, 0.2) 90%);
+  background-image : linear-gradient(to right, 
+  rgba(97, 84, 85, 0), 
+  rgba(97, 84, 85, 0.2) 90%);
+  font-weight: bolder;
+}
+
+.logocenter {
+  text-align: center;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  background: url('../images/esBG.jpg');
 }
 body {
   margin: 0;
