@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Elder-Scrolls-Savage-Worlds`,
+    title: `Elder Scrolls - Savage Worlds`,
     description: `character sheets with GM management`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

@@ -38,7 +38,7 @@ const IndexPage = () => {
         </div>
         <div className="logocenter">
           <p>
-            <Link to="/character/">
+            <Link to="/createCharacter/">
               <StaticImage
                 src="../images/addplayer.png"
                 width={100}

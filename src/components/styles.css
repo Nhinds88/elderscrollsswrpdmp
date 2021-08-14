@@ -1,0 +1,92 @@
+.sheet-nameRankXp{
+    width:50px;
+}
+
+.sheet-smalltextarea{
+    height:100px;
+}
+
+.sheet-rank {
+    width: 165px;
+    margin-bottom:1px;
+}
+
+select.sheet-dtype {
+    width: 60px;
+    vertical-align: top;
+}
+
+.charsheet {
+    background-image: url("http://freeseamlesstextures.com/images/11-fiber-paper-background-sml.jpg");
+}
+
+
+/*Hiding Sections*/
+input.sheet-arrow
+{
+    float: left;
+}
+
+input.sheet-arrow:checked ~ div.sheet-body
+{
+    display: none;
+}
+
+
+
+/*Tabs*/
+
+div.sheet-tab-content { display: none; }
+
+input.sheet-tab1:checked ~ div.sheet-tab1,
+input.sheet-tab2:checked ~ div.sheet-tab2,
+input.sheet-tab3:checked ~ div.sheet-tab3,
+input.sheet-tab4:checked ~ div.sheet-tab4,
+input.sheet-tab5:checked ~ div.sheet-tab5,
+input.sheet-tab6:checked ~ div.sheet-tab6,
+input.sheet-tab7:checked ~ div.sheet-tab7,
+input.sheet-tab8:checked ~ div.sheet-tab8
+{
+    display: block;
+}
+
+input.sheet-tab
+{
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 6px;
+    margin: -1.5px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+input.sheet-tab::before
+{
+    content: attr(title);
+
+    border: solid 1px #a8a8a8;
+    border-bottom-color: black;
+    text-align: center;
+    display: inline-block;
+    
+    background: #dcdcdc;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+}
+
+input.sheet-tab:checked::before
+{
+    background: #fff;
+}
+
+
+
+div.sheet-tab-content
+{
+    border: 1px solid #222;
+    margin: 7px 0 0 5px;
+    padding: 5px;
+}
